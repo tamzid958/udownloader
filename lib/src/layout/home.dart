@@ -59,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       persistentFooterButtons: [
         Text(
-          'made for ritu',
+          'xilo soft.',
           textAlign: TextAlign.center,
           style: TextStyle(
             color: kPrimaryColor,
