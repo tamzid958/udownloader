@@ -117,7 +117,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       return 'Please enter some text';
                     } else if (!value.contains("youtu.be") &&
                         !value.contains("youtube.com")) {
-                      return 'valid youtube url';
+                      return 'need valid youtube url';
                     }
                     return null;
                   },
