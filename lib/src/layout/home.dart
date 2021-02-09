@@ -115,6 +115,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   validator: (value) {
                     if (value.isEmpty) {
                       return 'Please enter some text';
+                    } else if (!value.contains("youtu.be") &&
+                        !value.contains("youtube.com")) {
+                      return 'valid youtube url';
                     }
                     return null;
                   },
